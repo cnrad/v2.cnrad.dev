@@ -1,3 +1,4 @@
+// @ts-ignore
 import { useLanyard } from "use-lanyard";
 import { motion } from "framer-motion";
 
@@ -25,7 +26,7 @@ const Spotify = () => {
 
             <div className="w-full h-[6rem] flex flex-row items-center justify-start">
                 <img
-                    src={user.spotify.album_art_url}
+                    src={user.spotify.album_art_url ?? ""}
                     className="w-[4.5rem] h-[4.5rem] rounded-md mr-4 pointer-events-none"
                     alt={user.spotify.album}
                 />

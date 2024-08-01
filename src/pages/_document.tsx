@@ -1,5 +1,4 @@
 import { Html, Head, Main, NextScript } from "next/document";
-import { CSideScript } from "@c-side/react";
 
 export default function Document() {
     return (
